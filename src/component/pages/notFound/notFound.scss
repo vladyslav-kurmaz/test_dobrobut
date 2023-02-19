@@ -1,0 +1,41 @@
+.main-404 {
+    background: linear-gradient(262.03deg, #094774 1.73%, #094774 36.19%, #136BAB 113.87%);
+    padding: 100px;
+    min-height: 100vh;
+
+    &__wrapper {
+        width: 850px;
+        margin: 0 auto;
+
+        padding: 12px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-content {
+            font-weight: 700;
+            font-size: 248px;
+            color: #ffffff;
+            opacity: .1;
+        }
+
+        a {
+            cursor: pointer;
+            margin-right: 10px;
+            padding: 8px 12px;
+            background: #E11D48;
+
+            border: 1px solid #BE185D;
+            border-radius: 4px;
+  
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #BE185D;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.main-s {
+    background: linear-gradient(262.03deg, #094774 1.73%, #094774 36.19%, #136BAB 113.87%);
+    padding: 50px;
+    min-height: 100vh;
+
+    &__services {
+        width: 850px;
+        margin: 0 auto;
+
+        padding: 12px;
+           
+        h1 {
+            opacity: .2;
+
+            font-weight: 700;
+            font-size: 48px;
+
+        }
+
+        &-list {
+            padding: 0;
+            list-style: none;
+
+        }
+
+        #search {
+            outline: none;
+            width: 300px;
+            padding: 5px;
+            font-size: 11px;
+        }
+        
+
+        
+    }
+}

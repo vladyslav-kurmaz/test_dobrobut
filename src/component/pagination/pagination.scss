@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+
+    &__list {
+        width: 100%;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+    
+        display: flex;
+        justify-content: space-between;
+    
+        &-item {
+            padding: 8px 25px;
+            margin-right: 5px;
+            background-color: #fff;
+            color: #000;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 1px solid #00c3ff;
+    
+            &:hover {
+                background-color: #6cafe3;
+            }
+        }
+    }
+    .active {
+        background-color: #008df8;
+    }
+
+    button {
+        border: 1px solid #00c3ff;
+        padding: 8px 10px;
+        margin-right: 5px;
+        background-color: #fff;
+        color: #000;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #6cafe3;
+        }
+    }
+    
+}

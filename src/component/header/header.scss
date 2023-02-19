@@ -1,0 +1,47 @@
+.header {
+    // position: fixed;
+    width: 100%;
+    background-color: #fff;
+
+    &__container {
+        margin: 0 auto;
+        width: 850px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__search {
+        width: 387px;
+        text-align: center;
+
+        & label  {
+            margin-right: 5px;
+        }
+
+        & input {
+            width: 90%;
+            border: none;
+            outline: none;
+
+
+        }
+
+    }
+
+    &__nav {
+        &-list {
+            width: 140px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+    }
+}
