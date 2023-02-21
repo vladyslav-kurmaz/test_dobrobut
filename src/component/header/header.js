@@ -14,7 +14,7 @@ class Header extends Component {
             <header className='header'>
                 <div className='header__container'>
                     <div className='header__logo'>
-                        <Link to='/test_dobrobut'><img src={logo} alt="logo dobrobut" /></Link>
+                        <Link to='/'><img src={logo} alt="logo dobrobut" /></Link>
                     </div>
                     
                     <nav className='header__nav'>
