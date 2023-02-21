@@ -2,7 +2,6 @@
   "name": "test-dobrobut",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vladyslav-kurmaz.github.io/test_dobrobut",
   "dependencies": {
     "@headlessui/react": "^1.7.10",
     "@heroicons/react": "^2.0.15",
@@ -21,8 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

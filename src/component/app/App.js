@@ -18,6 +18,7 @@ class App extends Component {
   }
 
   updateKey = (key, title) => {
+    console.log(typeof(key));
     this.setState({
       serviceKey: key,
       title: title
