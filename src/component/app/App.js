@@ -18,7 +18,6 @@ class App extends Component {
   }
 
   updateKey = (key, title) => {
-    console.log(typeof(key));
     this.setState({
       serviceKey: key,
       title: title
@@ -30,11 +29,11 @@ class App extends Component {
     return (
       <div className="App">
         <Routes>
-          <Route path='/test_dobrobut' element={<Overlay/>}>
+          <Route path='/' element={<Overlay/>}>
             <Route index element={<Home/>}/>
-            <Route path='/test_dobrobut/services' element={<Services updateKey={this.updateKey}/>}/>
-            <Route path='/test_dobrobut/about' element={<About/>}/>
-            <Route path={`/test_dobrobut/services/${this.state.serviceKey}`} element={<ServiceItems keyItem={this.state.serviceKey} keyTitle={this.state.title}/>}/>
+            <Route path='/services' element={<Services updateKey={this.updateKey}/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path={`/services/${this.state.serviceKey}`} element={<ServiceItems keyItem={this.state.serviceKey} keyTitle={this.state.title}/>}/>
             <Route path='*' element={<NotFound/>}/>
           </Route>
         </Routes>
